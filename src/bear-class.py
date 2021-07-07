@@ -22,7 +22,7 @@ def load_image(image):
 
 
 
-learn_inf = load_learner(path.parent/'export.pkl')
+learn_inf = load_learner(path/'export.pkl')
 
 def predict_img(pil_img):
     '''
