@@ -1,5 +1,4 @@
 fastai
 voila
 ipywidges
-pillow<=8.2
 packaging
