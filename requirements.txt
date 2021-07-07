@@ -1,5 +1,5 @@
 fastai
 voila
 ipywidgets
-pillow
+pillow==8.2
 packaging
