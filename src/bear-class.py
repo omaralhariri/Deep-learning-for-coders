@@ -33,7 +33,7 @@ def predict_img(pil_img):
     if pil_img is not None:
         return learn_inf.predict(pil_img)
 
-pic = st.file_uploader('Upload an image')
+pic = st.file_uploader('Upload an image of a grizzly, black, or teddy bear to test the classifier and get its prediction and probability back!')
 
 pred = 'n/a'
 pred_idx = 1
